@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 double number2 = Double.parseDouble(r);
                 double res = number1*number2;
                 result.setText("After Multiplication : " + res);
-                Toast.makeText(MainActivity.this, "Thank you for using SCULL ( Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Thank you for using SCULL (Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
             }
         });
         div.setOnClickListener(new View.OnClickListener() {
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 double number2 = Double.parseDouble(r);
                 double res = number1/(number2 * 1.0);
                 result.setText("After Division : " + res);
-                Toast.makeText(MainActivity.this, "Thank you for using SCULL ( Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Thank you for using SCULL (Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
             }
         });
         rem.setOnClickListener(new View.OnClickListener() {
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 double number2 = Double.parseDouble(r);
                 double res = number1 % number2;
                 result.setText("After Division the Remainder is : " + res);
-                Toast.makeText(MainActivity.this, "Thank you for using SCULL ( Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Thank you for using SCULL (Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
             }
         });
         pow.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 double number2 = Double.parseDouble(r);
                 double res = Math.pow(number1,number2);
                 result.setText(number1 + " ^ " + number2 + " = " + res);
-                Toast.makeText(MainActivity.this, "Thank you for using SCULL ( Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Thank you for using SCULL (Subrata's Calculator) ", Toast.LENGTH_SHORT).show();
             }
         });
     }
